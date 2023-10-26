@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GOPW.Alarm.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="maintable" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="defaultsoundloc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">자체 파일 사용</Value>
+    </Setting>
+    <Setting Name="defaultalertmode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">선택 안함</Value>
+    </Setting>
+    <Setting Name="checkedindexs" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="defaultalertinterval" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="defaultalertsize" Type="System.String" Scope="User">
+      <Value Profile="(Default)">100.100</Value>
+    </Setting>
+    <Setting Name="defaultalerttopmost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

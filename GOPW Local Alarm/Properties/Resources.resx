@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Cancel_Text" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Button_Confirm_Text" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Text_Empty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_Error" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="Error_Cannot_Find_Selected_Client" xml:space="preserve">
+    <value> 경보기 실행 실패. 지정된 클라이언트를 찾을 수 없습니다.</value>
+  </data>
+  <data name="Error_Scaner_Name_Cannot_be_empty" xml:space="preserve">
+    <value>경보기 이름은 공백이 될 수 없습니다.</value>
+  </data>
+  <data name="Error_Scaner_Name_Cannot_include_special_letter" xml:space="preserve">
+    <value>경보기 이름엔 |, #이 들어갈 수 없습니다.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Eve_warning_hull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\eve.warning.hull.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\loading.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_Please_Select_Type_Of_Scaner" xml:space="preserve">
+    <value>경보기의 종류를 선택해주세요.</value>
+  </data>
+  <data name="Message_Scaner_Already_Ended" xml:space="preserve">
+    <value>이미 종료된 경보기입니다.</value>
+  </data>
+  <data name="Message_Scaner_Already_Running" xml:space="preserve">
+    <value>경보기가 이미 켜져있습니다.</value>
+  </data>
+  <data name="Text_Scaner_Coordnate" xml:space="preserve">
+    <value>경보기 좌표</value>
+  </data>
+  <data name="Text_Scaner_EVE_Char_Name" xml:space="preserve">
+    <value>캐릭터 명</value>
+  </data>
+  <data name="Text_Scaner_name" xml:space="preserve">
+    <value>경보기 이름</value>
+  </data>
+  <data name="Text_Scaner_Sound_File_location" xml:space="preserve">
+    <value>경보 파일 위치</value>
+  </data>
+  <data name="Text_Scaner_type" xml:space="preserve">
+    <value>경보기 종류</value>
+  </data>
+  <data name="Text_Scaner_type_neut" xml:space="preserve">
+    <value>neut</value>
+  </data>
+  <data name="Text_Scaner_type_rat" xml:space="preserve">
+    <value>rat</value>
+  </data>
+  <data name="Text_Scaner_type_reload" xml:space="preserve">
+    <value>reload</value>
+  </data>
+  <data name="standing_bad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bad.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="standing_neut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\neut.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="standing_terrible" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\terrible.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="standing_war" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\war.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Close_Text" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="Button_Update_Text" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="Label_CurrentVersion" xml:space="preserve">
+    <value>현재 버전 : </value>
+  </data>
+  <data name="Label_LatestVersion" xml:space="preserve">
+    <value>최신 버전 : </value>
+  </data>
+  <data name="Message_Please_Select_EVE_Client" xml:space="preserve">
+    <value>이브 온라인 클라이언트를 선택하세요.</value>
+  </data>
+  <data name="Message_NewVerAvailAlert" xml:space="preserve">
+    <value>새로운 버전의 고퓨 알람을 사용할 수 있습니다. 업데이트 하시겠습니까?</value>
+  </data>
+  <data name="Text_Select_Cilent" xml:space="preserve">
+    <value>클라이언트 선택</value>
+  </data>
+  <data name="Text_UpdateAsk_name" xml:space="preserve">
+    <value>고퓨 경보기 업데이트</value>
+  </data>
+  <data name="Button_Patchnote_Text" xml:space="preserve">
+    <value>패치 노트</value>
+  </data>
+  <data name="Label_Status" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="Message_Click_Here" xml:space="preserve">
+    <value>여기를 클릭하세요.</value>
+  </data>
+  <data name="Message_EVE_Client_Is_min_stat" xml:space="preserve">
+    <value>이브 온라인 클라이언트가 최소화 상태입니다.</value>
+  </data>
+  <data name="Text_Area_Setting" xml:space="preserve">
+    <value>영역 설정</value>
+  </data>
+  <data name="Text_Dot" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Text_Minimized" xml:space="preserve">
+    <value>Minimized</value>
+  </data>
+  <data name="Text_NeutScaned" xml:space="preserve">
+    <value>NeutScaned</value>
+  </data>
+  <data name="Text_OFD_Filter" xml:space="preserve">
+    <value>Waveform audio format|*.WAV</value>
+  </data>
+  <data name="Text_PatchNote" xml:space="preserve">
+    <value>패치 노트</value>
+  </data>
+  <data name="Text_prepare" xml:space="preserve">
+    <value>prepare</value>
+  </data>
+  <data name="Text_Reset" xml:space="preserve">
+    <value>재설정</value>
+  </data>
+  <data name="Text_Space" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Text_Working" xml:space="preserve">
+    <value>Working.. </value>
+  </data>
+  <data name="Text_AlertData" xml:space="preserve">
+    <value>기타 정보</value>
+  </data>
+  <data name="Text_Working_2" xml:space="preserve">
+    <value>Working...</value>
+  </data>
+  <data name="Address_PatchnoteString" xml:space="preserve">
+    <value>https://www.gopw.kr/patchnote.txt</value>
+  </data>
+  <data name="Address_UpdateTarget" xml:space="preserve">
+    <value>https://gopw.kr/GOPW_Alarm.exe</value>
+  </data>
+  <data name="Address_Versionstring" xml:space="preserve">
+    <value>https://www.gopw.kr/version.txt</value>
+  </data>
+  <data name="Error_Cannot_Delete_Last_Alert" xml:space="preserve">
+    <value>마지막 경보기는 삭제할 수 없습니다.</value>
+  </data>
+  <data name="Error_interval_must_be_number" xml:space="preserve">
+    <value>스캔 주기는 반드시 숫자여야 합니다.</value>
+  </data>
+</root>
